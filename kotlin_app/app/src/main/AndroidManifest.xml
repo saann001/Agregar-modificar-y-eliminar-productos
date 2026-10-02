@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:label="Login App"
+        android:theme="@style/Theme.LoginApp"
+        android:usesCleartextTraffic="false">
+
+        <activity
+            android:name=".view.LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".view.HomeActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".view.ProductDetailActivity"
+            android:exported="false"
+            android:parentActivityName=".view.HomeActivity" />
+
+        <activity
+            android:name=".view.CreateProductActivity"
+            android:exported="false"
+            android:parentActivityName=".view.HomeActivity" />
+
+        <activity
+            android:name=".view.EditProductActivity"
+            android:exported="false"
+            android:parentActivityName=".view.ProductDetailActivity" />
+
+    </application>
+</manifest>

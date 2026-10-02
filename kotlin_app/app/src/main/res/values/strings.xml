@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tienda App</string>
+
+    <!-- Login (US01) -->
+    <string name="login_title">Bienvenido</string>
+    <string name="login_subtitle">Inicia sesión para ver el catálogo</string>
+    <string name="login_username">Usuario</string>
+    <string name="login_password">Contraseña</string>
+    <string name="login_button">Iniciar sesión</string>
+    <string name="login_error_empty">Usuario y contraseña son obligatorios.</string>
+    <string name="login_error_invalid">Usuario o contraseña inválidos</string>
+    <string name="login_error_no_connection">No hay conexión a internet. Verifica tu red e inténtalo de nuevo.</string>
+    <string name="login_error_unknown">Ocurrió un error inesperado: %1$s</string>
+
+    <!-- Catálogo (US03 / US04) -->
+    <string name="catalog_title">Catálogo</string>
+    <string name="catalog_welcome">Hola, %1$s</string>
+    <string name="catalog_role">%1$s</string>
+    <string name="catalog_all_categories">Ver todos</string>
+    <string name="catalog_empty">No hay productos para mostrar en esta categoría.</string>
+    <string name="catalog_error_generic">Ocurrió un problema al cargar el catálogo. Revisa tu conexión.</string>
+    <string name="catalog_error_no_connection">No hay conexión a internet. Verifica tu red e inténtalo de nuevo.</string>
+    <string name="catalog_retry">Reintentar</string>
+    <string name="catalog_product_count">%1$d productos</string>
+
+    <!-- Detalle (US05) -->
+    <string name="detail_title">Detalle del producto</string>
+    <string name="detail_rating">★ %1$s · %2$d reseñas</string>
+    <string name="detail_edit">Editar producto</string>
+    <string name="detail_delete">Eliminar producto</string>
+    <string name="detail_unavailable_title">Producto no disponible</string>
+    <string name="detail_unavailable_message">No pudimos cargar este producto. Te regresamos al catálogo.</string>
+    <string name="detail_back_to_catalog">Volver al catálogo</string>
+    <string name="detail_delete_confirm_title">Eliminar producto</string>
+    <string name="detail_delete_confirm_message">¿Seguro que deseas eliminar \"%1$s\"?</string>
+    <string name="detail_delete_success">Producto eliminado correctamente</string>
+    <string name="detail_no_permission">No cuentas con permisos para eliminar este producto.</string>
+    <string name="detail_edit_placeholder">Editar producto #%1$d</string>
+    <string name="detail_description_label">Descripción</string>
+
+    <!-- Categorías traducidas (la API las devuelve en inglés) -->
+    <string name="category_electronics">Electrónica</string>
+    <string name="category_jewelery">Joyería</string>
+    <string name="category_mens_clothing">Ropa de hombre</string>
+    <string name="category_womens_clothing">Ropa de mujer</string>
+
+    <!-- Formulario de producto: creación (US06) y edición (US07) -->
+    <string name="form_create_title">Nuevo producto</string>
+    <string name="form_edit_title">Editar producto</string>
+    <string name="form_field_title">Título</string>
+    <string name="form_field_price">Precio</string>
+    <string name="form_field_description">Descripción</string>
+    <string name="form_field_image_url">URL de la imagen</string>
+    <string name="form_field_category">Categoría</string>
+    <string name="form_save_create">Guardar producto</string>
+    <string name="form_save_edit">Guardar cambios</string>
+    <string name="form_create_success_title">Producto creado (Simulación)</string>
+    <string name="form_create_success_message">La API generó el ID #%1$d.\nEsta es una simulación: el producto no se agregará al catálogo real (GET /products).</string>
+    <string name="form_edit_success">Producto actualizado (Simulación)</string>
+    <string name="form_network_error">Ocurrió un problema al guardar el producto. Verifica tu conexión.</string>
+    <string name="form_close">Cerrar</string>
+    <string name="form_continue_editing">Seguir aquí</string>
+    <string name="form_access_denied">No cuentas con permisos para acceder a esta pantalla.</string>
+
+    <!-- Home / FAB -->
+    <string name="catalog_fab_add">Agregar producto</string>
+
+    <!-- Comunes -->
+    <string name="common_cancel">Cancelar</string>
+    <string name="common_delete">Eliminar</string>
+    <string name="common_understood">Entendido</string>
+    <string name="common_logout">Cerrar sesión</string>
+    <string name="common_product_image">Imagen del producto</string>
+    <string name="common_back">Volver</string>
+</resources>

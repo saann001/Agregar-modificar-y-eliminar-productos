@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Paleta principal: distintos tonos de azul -->
+    <color name="primary">#1565C0</color>        <!-- Blue 800: color principal -->
+    <color name="primary_dark">#0D47A1</color>   <!-- Blue 900: cabeceras/degradado -->
+    <color name="primary_variant">#1976D2</color> <!-- Blue 700: FAB, acentos -->
+    <color name="primary_light">#E3F2FD</color>  <!-- Blue 50: fondos suaves, badges -->
+    <color name="accent">#29B6F6</color>         <!-- Light Blue 400: detalles -->
+
+    <!-- Superficies -->
+    <color name="background">#F3F7FC</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="surface_alt">#EAF2FB</color>
+
+    <!-- Texto -->
+    <color name="text_primary">#12233D</color>
+    <color name="text_secondary">#5B7185</color>
+    <color name="text_on_primary">#FFFFFF</color>
+
+    <!-- Estados (semánticos, se mantienen fuera de la paleta de marca) -->
+    <color name="success">#0F766E</color>
+    <color name="error">#DC2626</color>
+    <color name="divider">#DCE6F2</color>
+</resources>
